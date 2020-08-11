@@ -1,6 +1,6 @@
 export default {
-  entry: 'dist/index.js',
-  dest: 'dist/main.cjs.js',
+  entry: `${__dirname}/dist/index.js`,
+  dest: `${__dirname}dist/main.cjs.js`,
   format: 'cjs',
   external: ['react'],
 }
