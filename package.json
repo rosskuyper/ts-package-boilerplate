@@ -1,5 +1,5 @@
 {
-  "name": "ts-package-boilerplate",
+  "name": "@rosskuyper/ts-package-boilerplate",
   "version": "0.0.1",
   "description": "Boilerplate for node / ts packages",
   "repository": "https://github.com/rosskuyper/ts-package-boilerplate",
@@ -8,7 +8,6 @@
   },
   "author": "ross@rosskuyper.com",
   "license": "MIT",
-  "private": true,
   "main": "./dist/main.cjs.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
