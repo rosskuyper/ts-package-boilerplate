@@ -3,12 +3,18 @@
   "version": "0.0.1",
   "description": "Boilerplate for node / ts packages",
   "repository": "https://github.com/rosskuyper/ts-package-boilerplate",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "ross@rosskuyper.com",
   "license": "MIT",
   "private": true,
   "main": "./dist/main.cjs.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "clean": "rm -rf build",
     "build": "yarn clean; yarn tsc; yarn rollup rollup.config.js"
