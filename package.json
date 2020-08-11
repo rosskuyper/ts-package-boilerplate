@@ -1,8 +1,8 @@
 {
-  "name": "ts-module-boilerplate",
+  "name": "ts-package-boilerplate",
   "version": "0.0.1",
-  "description": "Boilerplate for node / ts modules",
-  "repository": "https://github.com/rosskuyper/ts-module-boilerplate",
+  "description": "Boilerplate for node / ts packages",
+  "repository": "https://github.com/rosskuyper/ts-package-boilerplate",
   "author": "ross@rosskuyper.com",
   "license": "MIT",
   "private": true,
