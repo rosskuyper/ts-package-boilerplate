@@ -1,7 +1,7 @@
 {
   "name": "@rosskuyper/ts-package-boilerplate",
-  "version": "0.0.1",
-  "description": "Boilerplate for node / ts packages",
+  "version": "1.1.0",
+  "description": "Boilerplate code for creating a new NodeJS / TypeScript package in the Github registry.",
   "repository": "https://github.com/rosskuyper/ts-package-boilerplate",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
