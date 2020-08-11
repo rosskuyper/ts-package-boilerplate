@@ -1,0 +1,32 @@
+{
+  "name": "ts-module-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for node / ts modules",
+  "repository": "https://github.com/rosskuyper/ts-module-boilerplate",
+  "author": "ross@rosskuyper.com",
+  "license": "MIT",
+  "private": true,
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "yarn clean; yarn tsc; yarn rollup rollup.config.js"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.46",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "rollup": "^2.23.1",
+    "typescript": "^3.9.7"
+  }
+}
