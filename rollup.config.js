@@ -1,6 +1,13 @@
+import nodeResolve from '@rollup/plugin-node-resolve'
+
 export default {
-  entry: `${__dirname}/dist/index.js`,
-  dest: `${__dirname}dist/main.cjs.js`,
-  format: 'cjs',
+  input: './dist/index.js',
+  output: {
+    file: './dist/main.cjs.js',
+    format: 'cjs',
+    sourcemap: true,
+    exports: 'named',
+  },
   external: ['react'],
+  plugins: [nodeResolve()],
 }
