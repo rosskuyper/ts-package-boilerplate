@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn clean; tsc; rollup -c rollup.config.js"
+    "build": "yarn clean; tsc; rollup -c rollup.config.js",
+    "start": "yarn clean; tsc --watch"
   },
   "peerDependencies": {
     "react": "^16.13.1"
